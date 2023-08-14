@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #184190;
+	color: #fff;
+	font-family: 'Verdana', sans-serif;
+	font-size: calc(1rem * 0.8);
+	text-align: center;
+}
+
+a {
+	color: #90c7ea;
+}
+
+.boxed {
+	max-width: 50%;
+}
+
+.flexing {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center; 
+	align-items: center;
+}
