@@ -1,14 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import LayoutMedia from '../layouts/LayoutMedia.astro';
 import Footer from '../components/Footer.astro';
 const description = "Palafin is a Water-type Pokémon introduced in Generation 9. It evolves from Finizen and transforms into its Hero Form when it is switched out from battle."
+const mediaAs = "image";
+const mediaLink = "964-1_8-bit.gif";
+const mediaType = "image/gif";
 ---
 
-<Layout title="palaf.in" description={description}>
+<LayoutMedia title="palaf.in" description={description} mediaAs={mediaAs} mediaLink={mediaLink} mediaType={mediaType}>
 	<main class="flexing">
 		<section>
-			<video width="214" height="342" autoplay loop>
-				<source	src="palafin-hero-form.mp4" type="video/mp4" />
-			</video>
+			<img src="964-1_8-bit.gif" alt="Palafin">
 		</section>
 <Footer>
